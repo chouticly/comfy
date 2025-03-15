@@ -16,10 +16,10 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/cubiq/ComfyUI_essentials"
-	"https://github.com/MushroomFleet/DJZ-Nodes"
-	"https://github.com/kijai/ComfyUI-MochiWrapper"
+    "https://github.com/kijai/ComfyUI-MochiWrapper"
+    #"https://github.com/ltdrdata/ComfyUI-Manager"
+    #"https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/MushroomFleet/DJZ-Nodes"
 )
 
 WORKFLOWS=(
