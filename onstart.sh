@@ -145,6 +145,5 @@ main() {
     rm -f /.provisioning
     wait $supervisord_pid
 }
-sed -i 's/security_level = normal/security_level = weak/' /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
 main "$@"
 sed -i 's/security_level = normal/security_level = weak/' /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
