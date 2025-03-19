@@ -42,6 +42,8 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
+    "https://huggingface.co/Kijai/Mochi_preview_comfy/resolve/main/mochi_preview_vae_decoder_bf16.safetensors"
+    "https://huggingface.co/Kijai/Mochi_preview_comfy/resolve/main/mochi_preview_vae_encoder_bf16_.safetensors"
 )
 
 ESRGAN_MODELS=(
