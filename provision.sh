@@ -22,6 +22,16 @@ NODES=(
     "https://github.com/MushroomFleet/DJZ-Nodes"
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/kijai/ComfyUI-WanVideoWrapper"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/yolain/ComfyUI-Easy-Use"
+    "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+    "https://github.com/melMass/comfy_mtb"
+    "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
+    "https://github.com/jamesWalker55/comfyui-various"
+    "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
 )
 
 WORKFLOWS=(
