@@ -54,6 +54,10 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
+    "https://civitai.com/models/1343431/bouncing-boobs-wan-i2v-14b?modelVersionId=1517164"
+    "https://civitai.com/models/1407357/easy-nsfw-wan21-i2v-480p?modelVersionId=1590896"
+    "https://civitai.com/models/1307155/wan-general-nsfw-model-fixed?modelVersionId=1475095"
+    "https://civitai.com/models/1362546/wan-furry-titfuck?modelVersionId=1539326"
 )
 
 VAE_MODELS=(
