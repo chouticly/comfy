@@ -220,7 +220,7 @@ function provisioning_download() {
     if [[ -n $HF_TOKEN && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
         auth_token="$HF_TOKEN"
     elif 
-        [[ -n $CIVITAI_TOKEN && $1 =~ ^https:\/\/civitai\.com(\/|$|\?)(\/|$|\?) ]]; then
+        [[ -n $CIVITAI_TOKEN && $1 == https://civitai.com* ]]; then
         echo "Match found, setting auth_token..."
         auth_token="$CIVITAI_TOKEN"
     fi
