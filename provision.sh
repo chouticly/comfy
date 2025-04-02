@@ -47,7 +47,7 @@ CLIP_MODELS=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_bf16.safetensors"
-    "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors"
+    #"https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors"
 )
 
 UNET_MODELS=(
@@ -58,6 +58,10 @@ LORA_MODELS=(
     "https://civitai.com/models/1407357/easy-nsfw-wan21-i2v-480p?modelVersionId=1590896"
     "https://civitai.com/models/1307155/wan-general-nsfw-model-fixed?modelVersionId=1475095"
     "https://civitai.com/models/1362546/wan-furry-titfuck?modelVersionId=1539326"
+    "https://civitai.com/api/download/models/1517164?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1590896?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1475095?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/1539326?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
