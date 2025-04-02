@@ -54,10 +54,10 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/1517164"
-    "https://civitai.com/api/download/models/1590896"
-    "https://civitai.com/api/download/models/1475095"
-    "https://civitai.com/api/download/models/1539326"
+    "https://civitai.com/api/download/models/1517164" #bouncing boots i2v-14b
+    "https://civitai.com/api/download/models/1590896" #easy nsfw wan21
+    "https://civitai.com/api/download/models/1475095" #wan general nsfw
+    "https://civitai.com/api/download/models/1539326" #wan furry titfuck
 )
 
 VAE_MODELS=(
