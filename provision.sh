@@ -32,6 +32,7 @@ NODES=(
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
+    "https://github.com/lgldlk/ComfyUI-PC-ding-dong"
 )
 
 WORKFLOWS=(
