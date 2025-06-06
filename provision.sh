@@ -61,6 +61,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/1539326" #wan furry titfuck
     "https://civitai.com/api/download/models/1734893" #Taker POV
     "https://civitai.com/api/download/models/1807318" #penis masturbation
+    "https://civitai.com/api/download/models/1728992" #expansion
 )
 
 VAE_MODELS=(
