@@ -38,7 +38,7 @@ NODES=(
 
 # --- ZIP Configuration ---
 # REPLACE THIS WITH YOUR DIRECT GOOGLE DRIVE DOWNLOAD LINK
-ASSETS_ZIP_URL="https://drive.google.com/uc?export=download&id=YOUR_FOLDER_ID_HERE&confirm=t"
+ASSETS_ZIP_URL="https://www.googleapis.com/drive/v3/files/1H8ghkjDpmLKKNn0fzlCd3UDztVRKwq2g/?key=$GOOGLE_API&alt=media"
 ASSETS_STAGING_DIR="${COMFYUI_DIR}/tmp_assets"
 
 declare -A ASSETS_MAPPING
@@ -57,17 +57,17 @@ ASSETS_MAPPING=(
 
 # --- Individual File Configuration (Will run after ZIP or as fallback) ---
 WORKFLOWS=(
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/example%20workflows_Wan2.1/text_to_video_wan.json"
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/example%20workflows_Wan2.1/image_to_video_wan_480p_example.json"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/example%20workflows_Wan2.1/text_to_video_wan.json"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/example%20workflows_Wan2.1/image_to_video_wan_480p_example.json"
 )
 
 CLIP_MODELS=(
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_bf16.safetensors"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_bf16.safetensors"
     #"https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors"
 )
 
@@ -75,17 +75,17 @@ UNET_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/1517164" #bouncing boots i2v-14b
-    "https://civitai.com/api/download/models/1590896" #easy nsfw wan21
-    "https://civitai.com/api/download/models/1475095" #wan general nsfw
-    "https://civitai.com/api/download/models/1539326" #wan furry titfuck
-    "https://civitai.com/api/download/models/1734893" #Taker POV
-    "https://civitai.com/api/download/models/1807318" #penis masturbation
-    "https://civitai.com/api/download/models/1728992" #expansion
+    #"https://civitai.com/api/download/models/1517164" #bouncing boots i2v-14b
+    #"https://civitai.com/api/download/models/1590896" #easy nsfw wan21
+    #"https://civitai.com/api/download/models/1475095" #wan general nsfw
+    #"https://civitai.com/api/download/models/1539326" #wan furry titfuck
+    #"https://civitai.com/api/download/models/1734893" #Taker POV
+    #"https://civitai.com/api/download/models/1807318" #penis masturbation
+    #"https://civitai.com/api/download/models/1728992" #expansion
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -95,11 +95,11 @@ CONTROLNET_MODELS=(
 )
 
 CLIPVISION_MODELS=(
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
 )
 
 TEXT_ENCODERS=(
-    "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+    #"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 )
 # --- End Individual File Configuration ---
 
