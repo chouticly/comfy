@@ -51,7 +51,7 @@ ASSETS_MAPPING=(
     ["unet"]="models/unet"
     ["vae"]="models/vae"
     ["clip"]="models/clip"
-    ["diffusion_models"]="models/diffusion_models"
+    ["diffusion_models"]="models/checkpoints"
     ["clip_vision"]="models/clip_vision"
     ["text_encoders"]="models/text_encoders"
 )
