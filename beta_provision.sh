@@ -39,7 +39,7 @@ NODES=(
 
 # --- ZIP Configuration ---
 # REPLACE THIS WITH YOUR DIRECT DOWNLOAD LINK (GCS or Google Drive)
-ASSETS_ZIP_URL="https://storage.googleapis.com/YOUR_BUCKET_NAME/models.zip" 
+ASSETS_ZIP_URL="https://storage.googleapis.com/assetszip/assets.zip" 
 ASSETS_STAGING_DIR="${COMFYUI_DIR}/tmp_assets"
 # NEW: Define the subdirectory inside the extracted ZIP where your assets are located
 ASSETS_SOURCE_SUBDIR="cui_assets" 
