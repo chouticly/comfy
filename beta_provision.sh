@@ -38,7 +38,7 @@ NODES=(
 
 # --- ZIP Configuration ---
 # REPLACE THIS WITH YOUR DIRECT GOOGLE DRIVE DOWNLOAD LINK
-ASSETS_ZIP_URL="https://www.googleapis.com/drive/v3/files/1H8ghkjDpmLKKNn0fzlCd3UDztVRKwq2g/?key=$GOOGLE_API&alt=media"
+ASSETS_ZIP_URL="https://storage.googleapis.com/assetszip/assets.zip"
 ASSETS_STAGING_DIR="${COMFYUI_DIR}/tmp_assets"
 
 declare -A ASSETS_MAPPING
