@@ -35,6 +35,9 @@ NODES=(
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
     "https://github.com/lgldlk/ComfyUI-PC-ding-dong"
+    "https://github.com/calcuis/gguf"
+    "https://github.com/WarpedAnimation/ComfyUI-WarpedToolset"
+    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
 )
 
 # --- ZIP Configuration ---
