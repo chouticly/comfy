@@ -1,4 +1,4 @@
-# ComfyUI Vast.ai Template
+# ComfyUI Vast.ai Template 🚀
 
 This is a template for running ComfyUI on vast.ai. It comes with a number of custom nodes and models pre-installed, and can be easily customized to add your own.
 
